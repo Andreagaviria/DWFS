@@ -179,6 +179,10 @@ h1 {
   height: 232px;
 }
 
+iframe {
+  border: 0px;
+}
+
 /*--------------------------*/
 
 .venimos {
