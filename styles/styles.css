@@ -22,7 +22,7 @@ header {
   left: 100px;
 }
 
-navbar ul {
+nav ul {
   list-style: none;
   display: block;
   display: inline-flex;
@@ -31,7 +31,7 @@ navbar ul {
   right: 100px;
 }
 
-navbar ul li {
+nav ul li {
   padding-left: 48px;
 }
 
@@ -382,7 +382,7 @@ iframe {
     padding-top: 16px;
   }
 
-  navbar ul li {
+  nav ul li {
     padding-left: 16px;
     padding-bottom: 24px;
   }
@@ -391,14 +391,14 @@ iframe {
     color: white;
   }
 
-  .menu input:checked ~ .nav {
+  #btn-hamburguer:checked ~ .nav {
     margin-left: 0;
   }
 
   .menu input {
     display: none;
   }
-  .menu input:checked ~ .icono i::before {
+  #btn-hamburguer:checked ~ .icono i::before {
     content: "\f00d";
   }
 
